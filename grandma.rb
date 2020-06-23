@@ -1,5 +1,13 @@
 # Write a speak_to_grandma method.
+speak_to_grandma(phrase = "HELLO") = ""
 
+if speak_to_grandma(phrase) == "I LOVE YOU GRANDMA!"
+  return "I lOVE YOU TOO PUMPKIN!"
+  elsif speak_to_grandma == speak_to_grandma.upcase
+  return "NO, NOT SINCE 1938!"
+else
+  return "HUH?! SPEAK UP, SONNY!"
+end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
@@ -11,3 +19,4 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
